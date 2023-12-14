@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Аянгат цагийн тууж",
+    "price": "20000",
+    "material": "Зөөлөн хавтастай",
+    "images": [
+      "https://internom.mn/_next/image?url=https%3A%2F%2Fsinpim130259-dev.s3.ap-southeast-1.amazonaws.com%2Fpublic%2Fproduct-thumb%2FrGocNaY4c8MsPfWcUhJe-thumb.jpg&w=256&q=75"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Кофе хөрөхөөс өмнө",
+    "price": "16900",
+    "material": "Зөөлөн хавтастай",
+    "images": [
+      "https://internom.mn/_next/image?url=https%3A%2F%2Fsinpim130259-dev.s3.ap-southeast-1.amazonaws.com%2Fpublic%2Fproduct-thumb%2FrKl6QC4afveEwbkm-thumb.jpg&w=256&q=75"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Нохой-хүн: Бариад ир-22 (8)",
+    "price": "19900",
+    "material": "Зөөлөн хавтастай",
+    "images": [
+      "https://internom.mn/_next/image?url=https%3A%2F%2Fsinpim130259-dev.s3.ap-southeast-1.amazonaws.com%2Fpublic%2Fproduct-thumb%2FCNOawSiT6bWxSiAXjLcW-thumb.jpg&w=256&q=75"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ховдоос Харвард руу",
+    "price": "29500",
+    "material": "Зөөлөн хавтастай",
+    "images": [
+      "https://internom.mn/_next/image?url=https%3A%2F%2Fsinpim130259-dev.s3.ap-southeast-1.amazonaws.com%2Fpublic%2Fproduct-thumb%2F6vTDpfjMlBJ78LQwcZfo-thumb.jpg&w=640&q=75"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Кафед өгүүлэх түүхүүд",
+    "price": "18900",
+    "material": "Зөөлөн хавтастай",
+    "images": [
+      "https://internom.mn/_next/image?url=https%3A%2F%2Fsinpim130259-dev.s3.ap-southeast-1.amazonaws.com%2Fpublic%2Fproduct-thumb%2Fcz0lgfANSULnEmDTro40-thumb.jpg&w=256&q=75"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Сайн уу Хамгийн сайн хувилбар минь",
+    "price": "24500",
+    "material": "Зөөлөн хавтастай",
+    "images": [
+      "https://internom.mn/_next/image?url=https%3A%2F%2Fsinpim130259-dev.s3.ap-southeast-1.amazonaws.com%2Fpublic%2Fproduct-thumb%2FEsRS73zoEbWx3HKEvlTB-thumb.jpg&w=640&q=75"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Давшигч Титан 1 (1)",
+    "price": "19900",
+    "material": "Зөөлөн хавтастай",
+    "images": [
+      "https://internom.mn/_next/image?url=https%3A%2F%2Fsinpim130259-dev.s3.ap-southeast-1.amazonaws.com%2Fpublic%2Fproduct-thumb%2FTx9ET4CFztLRPAz9PMGq-thumb.jpg&w=640&q=75"
+    ]
+  }
+]
