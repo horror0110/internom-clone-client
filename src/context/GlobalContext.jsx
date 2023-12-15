@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 export const GlobalContext = createContext();
 
 export const GlobalProvider = ({ children }) => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("business");
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("auth")));
 
   return (

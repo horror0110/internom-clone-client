@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import { GlobalProvider } from "./context/GlobalContext";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import ProductDetail from "./pages/ProductDetail";
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/auth/login" element={<Login />} />
             <Route path="/auth/signup" element={<Signup />} />
+            <Route path="/auth/signup" element={<Signup />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
           </Routes>
         </GlobalProvider>
       </BrowserRouter>

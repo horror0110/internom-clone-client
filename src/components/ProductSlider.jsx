@@ -4,16 +4,17 @@ import "swiper/css";
 import data from "../utils/products.json";
 import { FaAngleRight } from "react-icons/fa";
 import { FaAngleLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductSlider = () => {
   const [swiper, setSwiper] = useState(null);
 
   const nexto = () => {
-    swiper.slideNext();
+    swiper.slideTo(swiper.activeIndex + 6); 
   };
 
   const backto = () => {
-    swiper.slidePrev();
+    swiper.slideTo(swiper.activeIndex - 6); 
   };
   return (
     <div>
@@ -57,7 +58,7 @@ const ProductSlider = () => {
         <div className="">
           {data.map((product, index) => (
             <SwiperSlide key={product.id}>
-              <div className="mx-auto">
+              <Link to={`/product/${product.id}`} className="mx-auto">
                 <img
                   src={product.images[0]}
                   className="object-cover"
@@ -75,7 +76,7 @@ const ProductSlider = () => {
                   </div>
                 </div>
                 <div className="ml-7 font-bold">{product.price}</div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </div>

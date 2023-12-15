@@ -8,9 +8,9 @@ const NavbarDropdown = () => {
 
   const handleToggle = (e) => {
     if (e.target.checked) {
-      setTheme("business");
-    } else {
       setTheme("light");
+    } else {
+      setTheme("business");
     }
   };
 
