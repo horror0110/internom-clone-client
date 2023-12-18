@@ -28,7 +28,7 @@ const Navbar = () => {
 
         <NavbarDropdown />
 
-        <div className="flex items-center gap-1">
+        <Link to="/cart" className="flex items-center gap-1">
           <div className="relative">
             <MdShoppingCart color="white" size={25} />
             <span className="absolute bg-orange-400 rounded-full px-1 text-[14px] text-black top-[-14px] right-[-5px]">
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
 
           <span>Сагс</span>
-        </div>
+        </Link>
       </div>
 
       {/*** menu items ***/}

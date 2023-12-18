@@ -10,11 +10,11 @@ const ProductSlider = () => {
   const [swiper, setSwiper] = useState(null);
 
   const nexto = () => {
-    swiper.slideTo(swiper.activeIndex + 6); 
+    swiper.slideTo(swiper.activeIndex + 6);
   };
 
   const backto = () => {
-    swiper.slideTo(swiper.activeIndex - 6); 
+    swiper.slideTo(swiper.activeIndex - 6);
   };
   return (
     <div>
@@ -35,7 +35,7 @@ const ProductSlider = () => {
         className="mx-10"
         breakpoints={{
           // When window width is >= 640px
-          390: {
+          480: {
             slidesPerView: 2,
           },
 

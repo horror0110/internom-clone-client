@@ -5,6 +5,7 @@ import { GlobalProvider } from "./context/GlobalContext";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <Route path="/auth/signup" element={<Signup />} />
             <Route path="/auth/signup" element={<Signup />} />
             <Route path="/product/:id" element={<ProductDetail />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
         </GlobalProvider>
       </BrowserRouter>
