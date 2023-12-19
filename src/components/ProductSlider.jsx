@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import data from "../utils/products.json";
 import { FaAngleRight } from "react-icons/fa";
 import { FaAngleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const ProductSlider = () => {
+const ProductSlider = ({data}) => {
   const [swiper, setSwiper] = useState(null);
 
   const nexto = () => {
@@ -21,12 +20,12 @@ const ProductSlider = () => {
       <div className="flex items-center justify-between ml-10 mr-20 my-10 gap-1 ">
         <h1 className="font-bold text-lg">Интерном - Топ 100</h1>
         <div className="flex gap-1">
-          <div className="border border-white p-2 cursor-pointer">
-            <FaAngleLeft onClick={backto} color="white" />
+          <div onClick={backto} className="border border-white p-2 cursor-pointer">
+            <FaAngleLeft  color="white" />
           </div>
 
-          <div className="border border-white p-2 cursor-pointer">
-            <FaAngleRight onClick={nexto} color="white" />
+          <div onClick={nexto} className="border border-white p-2 cursor-pointer">
+            <FaAngleRight  color="white" />
           </div>
         </div>
       </div>
