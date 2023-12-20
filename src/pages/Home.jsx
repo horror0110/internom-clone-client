@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import ProductSlider from '../components/ProductSlider'
 import data from "../utils/products.json";
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <ProductSlider data={data}/>
+      <Footer/>
     </div>
   )
 }
