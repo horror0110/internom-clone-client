@@ -57,7 +57,7 @@ const ProductSlider = ({data}) => {
         <div className="">
           {data.map((product, index) => (
             <SwiperSlide key={product.id}>
-              <Link to={`/product/${product.id}`} className="mx-auto">
+              <Link to={`/product/${product._id}`} className="mx-auto">
                 <img
                   src={product.images[0]}
                   className="object-cover"
