@@ -32,6 +32,19 @@
             "title": "Бестселлер - УРАН ЗОХИОЛ"
           }
         ]
+      },
+      {
+        "content": "Сэдэв",
+        "items": [
+          {
+            "id": 1,
+            "title": "Компьютер мэдээллийн технологи"
+          },
+          {
+            "id": 2,
+            "title": "Спорт"
+          }
+        ]
       }
     ]
   },
@@ -39,21 +52,20 @@
     "id": 2,
     "title": "ENGLISH BOOKS",
     "subcategories": [
-       
-        {
-          "content": "CATEGORY",
-          "items": [
-            {
-              "id": 1,
-              "title": "Arts"
-            },
-            {
-              "id": 2,
-              "title": "Biography"
-            }
-          ]
-        }
-      ]
+      {
+        "content": "CATEGORY",
+        "items": [
+          {
+            "id": 1,
+            "title": "Arts"
+          },
+          {
+            "id": 2,
+            "title": "Biography"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 3,

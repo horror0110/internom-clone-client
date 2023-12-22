@@ -7,6 +7,7 @@ import Signup from "./pages/Signup";
 import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
+import Category from "./pages/Category";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout/address" element={<Checkout />} />
+            <Route path="/categories/:name" element={<Category />} />
           </Routes>
         </GlobalProvider>
       </BrowserRouter>

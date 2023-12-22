@@ -74,9 +74,9 @@ const Navbar = () => {
 
                     {el.items &&
                       el.items.map((el, index) => (
-                        <span className="text-gray-400" key={el.id}>
+                        <Link to="/categories/uran-zohiol" className="text-gray-400" key={el.id}>
                           {el.title}
-                        </span>
+                        </Link>
                       ))}
                   </div>
                 ))}
